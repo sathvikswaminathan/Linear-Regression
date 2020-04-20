@@ -4,7 +4,7 @@ Gradient Descent has been implemented on the mean squared error function
 
 ## The following image is a graph between the cost function and the number of steps taken by the parameter x.
 
-![alt tag](https://github.com/sathvikswaminathan/LinearRegression/raw/master/Linear%20Regression/Gradient%20Descent/gradient_descent.png)
+![alt tag](https://github.com/sathvikswaminathan/Linear-Regression/raw/master/Linear%20Regression/Gradient%20Descent/gradient_descent.png)
 
 # ii) Normal Solution
 ![alt tag](https://github.com/sathvikswaminathan/Linear-Regression/raw/master/Linear%20Regression/Normal%20Solution/normal_solution.png)
