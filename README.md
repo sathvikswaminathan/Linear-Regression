@@ -4,10 +4,10 @@ Gradient Descent has been implemented on the mean squared error function
 
 ## The following image is a graph between the cost function and the number of steps taken by the parameter x.
 
-![alt tag](https://github.com/CYBONYMOUS/gradient-descent/raw/master/plot.png)
+![alt tag](/LinearRegression/Gradient-Descent/gradient_descent.png)
 
 # ii) Normal Solution
-![alt tag](https://github.com/sathvikswaminathan/Regression/raw/master/normal_solution.png)
+![alt tag](/LinearRegression/Normal-Solution/normal_solution.png)
 
 ## Implementing the Normal Solution comes with its own advantages and disadvantages. 
 ### Advantages:
