@@ -15,7 +15,7 @@ The matrix representation of a system of linear equations is of the form **Ax = 
 
 The above equation can be solved without any hassle if **b** belongs to the column space of **A**. If **b** does not belong to the column space of **A** then the equation cannot be solved. The following algorithms can be used to compute an approximate solution in such cases.
 
-## * i) Normal Solution :
+## i) Normal Solution :
 
 ## Implementing the Normal Solution comes with its own advantages and disadvantages. 
 ### Advantages:
