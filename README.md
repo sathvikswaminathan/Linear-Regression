@@ -51,16 +51,15 @@ It's because in most cases **A** is not a square matrix and for an inverse to ex
 
 In the case of a rectangular matrix which has independent columns, we can compute its pseduo inverse by decomposing it using **Singular Value Decomposition (SVD)**. 
 
-The Pseduo inverse of a matrix **A** is denoted by **A<sup>+</sup>** . 
-**x** can then be computed by the following transformation:
+The Pseduo inverse of a matrix **A** is denoted by **A<sup>+</sup>**.
+
+**x** can then be computed using the below operation:
 
 **x** = **A<sup>+</sup> b**.
 
 ## Implementing Least Squares the Linear Algebra way comes with its own advantages and disadvantages. 
 
 ### Advantages:
-
-#### (My beliefs)
 * It is a non-iterative algorithm. Unlike gradient descent, this algorithm does not have to train the model in an interative manner to predict results.
 * The equation to compute the Normal solution comes in a very compact form. Irrespective of the number of features, the equation remains the same as all of the information is packed into a Matrix.
 
