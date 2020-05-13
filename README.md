@@ -64,5 +64,7 @@ The Pseduo inverse of a matrix **A** is denoted by **A<sup>+</sup>** .
 
 ### Disadvantages: 
 The Normal solution is preferred in every case in which it is not too computationally expensive to compute.
-* If the data points and the training feautures are large in number (sometimes in a machine learning algorithm we can end up with number of data points >1,000,000 and number of variables > 1000), the size of the Matrix becomes huge and it becomes computationally expensive to even initialize the matrix and on top of that a lot of expensive operations have to be performed on the matrix.
-* In such scenarios the gradient descent algorithm is computationally less expensive and saves a lot of time on calculations.
+
+If the data points and the training feautures are large in number (sometimes in a machine learning algorithm we can end up with number of data points >1,000,000 and number of variables > 1000), the size of the Matrix becomes huge and it becomes computationally expensive to even initialize the matrix and on top of that a lot of expensive operations have to be performed on the matrix.
+
+In such scenarios the gradient descent algorithm is computationally less expensive and saves a lot of time on calculations.
