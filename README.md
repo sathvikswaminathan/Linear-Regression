@@ -45,7 +45,7 @@ It is always ideal to have an orthogonal basis as it simplifies matrix operation
 ## iii) Pseudo Inverse :
 The matrix representation of a system of linear equations is of the form **Ax = b** . 
 
-Why not simply solve for **x** by taking the inverse of **A** and multiply it with the **b** vector? 
+Why not simply solve for **x<sup>^</sup>** by taking the inverse of **A** and multiply it with the **b** vector? 
 
 It's because in most cases **A** is not a square matrix and for an inverse to exist, the Matrix must be a square matrix and it's rank must be equal to its dimensions. 
 
@@ -53,9 +53,9 @@ In the case of a rectangular matrix which has independent columns, we can comput
 
 The Pseduo inverse of a matrix **A** is denoted by **A<sup>+</sup>**.
 
-**x** can then be computed using the below operation:
+**x<sup>^</sup>** can then be computed using the below operation:
 
-**x** = **A<sup>+</sup> b**.
+**x<sup>^</sup>** = **A<sup>+</sup> b**.
 
 ## Implementing Least Squares the Linear Algebra way comes with its own advantages and disadvantages. 
 
