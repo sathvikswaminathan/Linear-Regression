@@ -18,7 +18,7 @@ The above equation can be solved without any hassle if **b** belongs to the colu
 ## i) Normal Solution :
 The operation used to compute the Normal Solution is the following:
 
-**x = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>b**
+**x<sup>^</sup> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>b**
 
 This solution can be obtained by projecting the vector **b** onto the column space of **A** (**p**) and then solving for **x**
 using the equation **Ax<sup>^</sup> = p**, where **x<sup>^</sup>** is the approximate solution.
@@ -31,6 +31,10 @@ and setting it to **0**.
 This is similar to the Normal Solution. An orthogonal basis for the column space is computed using the  Gram Schmidt algorithm to make certain computations like the inverse of a matrix less expensive. A matrix can be decomposed into an orthogonal matrix **Q** and an upper triangular matrix **R**.
 
 **A = QR** (QR Factorization)
+
+This factorization can be substituted into the Normal solution to obtain the following solution:
+
+**x<sup>^</sup> = R<sup>-1</sup>(Q<sup>T</sup>b)**
 
 Orthogonal Matrices also have the following property which is computationally convinient:
 
