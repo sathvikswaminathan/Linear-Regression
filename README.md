@@ -28,7 +28,9 @@ and setting it to **0**.
 
 ## ii) Gram Schmidt :
 
-This is similar to the Normal Solution. An orthogonal basis for the column space is computed to make certain computations like the inverse of a matrix less expensive. 
+This is similar to the Normal Solution. An orthogonal basis for the column space is computed using the  Gram Schmidt algorithm to make certain computations like the inverse of a matrix less expensive. A matrix can be decomposed into an orthogonal matrix **Q** and an upper triangular matrix **R**.
+
+**A = QR** (QR Factorization)
 
 Orthogonal Matrices also have the following property which is computationally convinient:
 
