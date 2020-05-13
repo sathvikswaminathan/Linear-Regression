@@ -31,6 +31,7 @@ and setting it to **0**.
 This is similar to the Normal Solution. An orthogonal basis for the column space is computed to make certain computations like the inverse of a matrix less expensive. 
 
 Orthogonal Matrices also have the following property which is computationally convinient:
+
 **Q<sup>T</sup>Q = I**
 
 It is always ideal to have an orthogonal basis as it simplifies matrix operations.
