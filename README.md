@@ -45,7 +45,7 @@ Why not simply solve for **x** by taking the inverse of **A** and multiply it wi
 
 It's because in most cases **A** is not a square matrix and for an inverse to exist, the Matrix must be a square matrix and it's rank must be equal to its dimensions. 
 
-In the case of a rectangular matrix which has independent columns, we can compute its pseduo matrix by decomposing it using **Singular Value Decomposition (SVD)**. 
+In the case of a rectangular matrix which has independent columns, we can compute its pseduo inverse by decomposing it using **Singular Value Decomposition (SVD)**. 
 
 The Pseduo inverse of a matrix **A** is denoted by **A<sup>+</sup>** . 
 **x** can then be computed by the following transformation:
